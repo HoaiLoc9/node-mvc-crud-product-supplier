@@ -1,2 +1,9 @@
-<h1> node-mvc-crud-product-supplier- Part 1 </h1>
-<h2>Dự án này là một website CRUD (Create, Read, Update, Delete) được xây dựng bằng Node.js và MongoDB với mô hình MVC, tập trung vào quản lý thông tin sản phẩm (bao gồm tên, giá, số lượng) và nhà cung cấp (bao gồm tên, địa chỉ, số điện thoại). Mối quan hệ giữa sản phẩm và nhà cung cấp được thiết lập qua trường supplierId. Dự án bao gồm cấu trúc thư mục được tổ chức rõ ràng với các thành phần chính như mô hình (models), bộ điều khiển (controllers), tuyến đường (routes), và giao diện người dùng (views), cùng với các tệp CSS và JavaScript hỗ trợ. Mục tiêu là tạo ra một hệ thống quản lý hiệu quả cho sản phẩm và nhà cung cấp.</h2>
+<body>
+    <div class="container">
+        <h1>Mô Tả Dự Án</h1>
+        <p>
+            Dự án này là một website CRUD (Create, Read, Update, Delete) xinh xắn, được xây dựng bằng <span class="highlight">Node.js</span> và <span class="highlight">MongoDB</span> theo mô hình MVC, giúp quản lý thông tin sản phẩm (tên, giá, số lượng) và nhà cung cấp (tên, địa chỉ, số điện thoại) một cách dễ thương. Mối liên kết giữa sản phẩm và nhà cung cấp được thiết lập qua trường <span class="highlight">supplierId</span>. Cấu trúc thư mục được sắp xếp gọn gàng với các phần như mô hình (models), bộ điều khiển (controllers), tuyến đường (routes), và giao diện (views), cùng các tệp CSS và JavaScript hỗ trợ. Mục tiêu là tạo ra một hệ thống quản lý vừa hiệu quả, vừa dễ nhìn, mang lại trải nghiệm thân thiện cho người dùng! ❤️
+        </p>
+    </div>
+</body>
+</html>
