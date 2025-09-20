@@ -1,0 +1,83 @@
+/* Reset nhẹ */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container chính */
+.container {
+  max-width: 960px;
+}
+
+/* Navbar / Header */
+header, nav {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+header a, nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+header a:hover, nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+}
+
+/* Card tuỳ chỉnh */
+.card {
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+/* Form */
+form label {
+  font-weight: bold;
+}
+
+form .btn {
+  min-width: 100px;
+}
+
+/* Bảng */
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Nút hành động */
+.btn {
+  border-radius: 8px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-success {
+  background-color: #28a745;
+}

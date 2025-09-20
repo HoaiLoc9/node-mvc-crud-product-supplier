@@ -1,0 +1,8 @@
+<%- include('../partials/header') %>
+<h3>Edit Product</h3>
+<form action="/products/<%= product._id %>?_method=PUT" method="POST">
+  <div class="mb-3">
+    <label class="form-label">Name</label>
+    <input name="name" value="<%= product.name %>" class="form-control">
+  </div>
+  <div class="mb-

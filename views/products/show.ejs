@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+
+<div class="container mt-4">
+  <h2 class="mb-4">Chi tiết sản phẩm</h2>
+
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <h4 class="card-title"><%= product.name %></h4>
+      <p class="card-text">
+        <strong>Giá:</strong> <%= product.price %> <br>
+        <strong>Số lượng:</strong> <%= product.quantity %> <br>
+        <strong>Nhà cung cấp:</strong> 
+        <% if (product.supplier) { %>
+          <%= product.supplier.name %> - <%= product.supplier.address %> - <%= product.supplier.phone %>
+        <% } else { %>
+          <em>Không có thông tin nhà cung cấp</em>
+        <% } %>
+      </p>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+      <a href="/products/<%= product._id %>/edit" class="btn btn-warning">Sửa</a>
+      <form action="/products/<%= product._id %>?_method=DELETE" method="POST" onsubmit="return confirm('Bạn có chắc chắn muốn xóa?')">
+        <button type="submit" class="btn btn-danger">Xóa</button>
+      </form>
+      <a href="/products" class="btn btn-secondary">Quay lại</a>
+    </div>
+  </div>
+</div>
+
+<%- include("../partials/footer") %>

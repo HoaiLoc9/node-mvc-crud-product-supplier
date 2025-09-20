@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+<h3>Supplier: <%= supplier.name %></h3>
+<p>Address: <%= supplier.address %></p>
+<p>Phone: <%= supplier.phone %></p>
+<h4>Products:</h4>
+<ul>
+  <% products.forEach(p=>{ %>
+    <li><%= p.name %> - <%= p.price %> USD</li>
+  <% }) %>
+</ul>
+<%- include('../partials/footer') %>
